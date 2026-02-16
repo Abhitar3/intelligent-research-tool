@@ -1,0 +1,149 @@
+{
+  "urls": [
+    "https://docs.python.org/3/tutorial/introduction.html",
+    "https://docs.python.org/3/tutorial/controlflow.html",
+    "https://docs.python.org/3/tutorial/datastructures.html"
+  ],
+  "cases": [
+    {
+      "id": "q01",
+      "difficulty": "easy",
+      "query": "How can I iterate over a sequence of numbers in Python?",
+      "expected_terms": ["for", "range"],
+      "expected_sources": ["controlflow.html"]
+    },
+    {
+      "id": "q02",
+      "difficulty": "easy",
+      "query": "When should I use break in a loop?",
+      "expected_terms": ["break", "loop"],
+      "expected_sources": ["controlflow.html"]
+    },
+    {
+      "id": "q03",
+      "difficulty": "easy",
+      "query": "What does continue do inside loops?",
+      "expected_terms": ["continue", "next iteration"],
+      "expected_sources": ["controlflow.html"]
+    },
+    {
+      "id": "q04",
+      "difficulty": "easy",
+      "query": "How do I define a function?",
+      "expected_terms": ["def", "function"],
+      "expected_sources": ["controlflow.html"]
+    },
+    {
+      "id": "q05",
+      "difficulty": "medium",
+      "query": "What are list comprehensions used for?",
+      "expected_terms": ["list comprehension", "list"],
+      "expected_sources": ["datastructures.html"]
+    },
+    {
+      "id": "q06",
+      "difficulty": "medium",
+      "query": "How do Python dictionaries store data?",
+      "expected_terms": ["dictionary", "key", "value"],
+      "expected_sources": ["datastructures.html"]
+    },
+    {
+      "id": "q07",
+      "difficulty": "medium",
+      "query": "How do I create and use tuples?",
+      "expected_terms": ["tuple", "immutable"],
+      "expected_sources": ["datastructures.html"]
+    },
+    {
+      "id": "q08",
+      "difficulty": "easy",
+      "query": "How can I append an item to a list?",
+      "expected_terms": ["append", "list"],
+      "expected_sources": ["datastructures.html"]
+    },
+    {
+      "id": "q09",
+      "difficulty": "easy",
+      "query": "How do I remove an element from a list by value?",
+      "expected_terms": ["remove", "list"],
+      "expected_sources": ["datastructures.html"]
+    },
+    {
+      "id": "q10",
+      "difficulty": "medium",
+      "query": "What is slicing in Python sequences?",
+      "expected_terms": ["slice", "sequence"],
+      "expected_sources": ["introduction.html"]
+    },
+    {
+      "id": "q11",
+      "difficulty": "medium",
+      "query": "How do negative indices work in Python?",
+      "expected_terms": ["negative", "index"],
+      "expected_sources": ["introduction.html"]
+    },
+    {
+      "id": "q12",
+      "difficulty": "easy",
+      "query": "How do comments work in Python code?",
+      "expected_terms": ["comment", "#"],
+      "expected_sources": ["introduction.html"]
+    },
+    {
+      "id": "q13",
+      "difficulty": "medium",
+      "query": "How can I format strings in modern Python?",
+      "expected_terms": ["formatted string literals", "f-string"],
+      "expected_sources": ["introduction.html"]
+    },
+    {
+      "id": "q14",
+      "difficulty": "hard",
+      "query": "What is enumerate useful for in loops?",
+      "expected_terms": ["enumerate", "index", "value"],
+      "expected_sources": ["controlflow.html"]
+    },
+    {
+      "id": "q15",
+      "difficulty": "hard",
+      "query": "How can I loop over dictionary keys and values together?",
+      "expected_terms": ["items()", "key", "value"],
+      "expected_sources": ["datastructures.html"]
+    },
+    {
+      "id": "q16",
+      "difficulty": "hard",
+      "query": "What does pass do in Python?",
+      "expected_terms": ["pass", "null operation"],
+      "expected_sources": ["controlflow.html"]
+    },
+    {
+      "id": "q17",
+      "difficulty": "medium",
+      "query": "How do default argument values work in function definitions?",
+      "expected_terms": ["default", "argument"],
+      "expected_sources": ["controlflow.html"]
+    },
+    {
+      "id": "q18",
+      "difficulty": "easy",
+      "query": "How can I check membership in a list?",
+      "expected_terms": ["in", "membership", "list"],
+      "expected_sources": ["introduction.html"]
+    },
+    {
+      "id": "q19",
+      "difficulty": "hard",
+      "query": "How is sort different from sorted for lists?",
+      "expected_terms": ["sort()", "sorted()", "list"],
+      "expected_sources": ["datastructures.html"]
+    },
+    {
+      "id": "q20",
+      "difficulty": "hard",
+      "query": "What happens when no loop item satisfies a condition and else is used with loops?",
+      "expected_terms": ["loop", "else"],
+      "expected_sources": ["controlflow.html"]
+    }
+  ]
+}
